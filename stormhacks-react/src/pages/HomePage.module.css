@@ -5,3 +5,26 @@
   font-weight: bold;
   margin-top: 10%;
 }
+
+.actions {
+  /* padding: 1.5rem; */
+  margin-top: 10px;
+  text-align: left;
+}
+
+.actions button {
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  color: #4785fb;
+  border: 1px solid white;
+  background-color: white;
+  padding: 0.5rem 1.5rem;
+  /* margin-right: 10px; */
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #b8f2fc;
+}
