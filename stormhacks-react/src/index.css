@@ -7,7 +7,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  /* background-color: linear-gradient(45deg, #ea4f4c 0%, #6d0019 100%); */
   background: linear-gradient(#b4ccf5, #51b0ff);
   background-attachment: fixed;
 }
