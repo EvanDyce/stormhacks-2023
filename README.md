@@ -1,2 +1,2 @@
-# stormhacks-2023
+# MateRate
 Stormhacks 2023 Project: MateRate
