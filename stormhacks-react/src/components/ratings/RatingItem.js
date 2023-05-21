@@ -13,7 +13,7 @@ function RatingItem(props) {
                 <header>
                     <table>
                         <tr>
-                            <td rowspan="4">
+                            <td rowspan="5">
                                 <img src={props.image} alt={props.title} className={classes.userimage} />
                             </td>
                         </tr>
