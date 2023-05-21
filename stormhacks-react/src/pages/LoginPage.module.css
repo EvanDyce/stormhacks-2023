@@ -1,11 +1,3 @@
-.logo {
-  font-size: 2rem;
-  /* color: white; */
-  color: #4785fb;
-  font-weight: bold;
-  /* margin-top: 10%; */
-}
-
 .linkbutton {
   font-size: 2rem;
   /* color: white; */
@@ -14,7 +6,15 @@
 }
 
 .linkbutton a:hover,
-.linkbutton a:active,
 .linkbutton a.active {
   color: white;
+  transition: 0.3s;
+}
+
+.logo {
+  font-size: 2rem;
+  /* color: white; */
+  color: #4785fb;
+  font-weight: bold;
+  /* margin-top: 10%; */
 }

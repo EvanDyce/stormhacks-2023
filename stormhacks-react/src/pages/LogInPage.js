@@ -6,7 +6,7 @@ function LogInPage() {
     return (
         <body>
         <Card>
-            <header className={classes.logo}>Forum Login</header>
+            <header className={classes.logo}>Login</header>
             <br /><br />
             <form method='post' action='login.php'>
                 Username<br />
