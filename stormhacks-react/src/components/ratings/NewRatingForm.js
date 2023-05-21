@@ -38,7 +38,7 @@ function NewRatingForm(props) {
                 <input type='text' required id='name' ref={nameInputRef}/>
             </div>
             <div className={classes.control}>
-                <label htmlFor='title'>Your Name:</label>
+                <label htmlFor='title'>Your Name</label>
                 <input type='text' required id='yourname' ref={yournameInputRef}/>
             </div>
             <div className={classes.control}>
