@@ -8,6 +8,7 @@ function NewRatingForm(props) {
     const imageInputRef = useRef();
     const ratingInputRef = useRef();
     const commentsInputRef = useRef();
+    const yournameInputRef = useRef();
 
     function submitHandler(event) {
         event.preventDefault();
@@ -16,12 +17,14 @@ function NewRatingForm(props) {
         const enteredImage = imageInputRef.current.value;
         const enteredRating = ratingInputRef.current.value;
         const enteredComments = commentsInputRef.current.value;
+        const enteredYName = yournameInputRef.current.value
 
         const ratingData = {
             name: enteredTitle,
             image: enteredImage,
             rating: enteredRating,
             comment: enteredComments,
+            yourname: enteredYName,
             date: 'May 21, 2023'
         }
 
@@ -31,8 +34,12 @@ function NewRatingForm(props) {
     return <Card>
         <form className={classes.form} onSubmit={submitHandler}>
             <div className={classes.control}>
-                <label htmlFor='title'>Name</label>
+                <label htmlFor='title'>Name of Person</label>
                 <input type='text' required id='name' ref={nameInputRef}/>
+            </div>
+            <div className={classes.control}>
+                <label htmlFor='title'>Your Name:</label>
+                <input type='text' required id='yourname' ref={yournameInputRef}/>
             </div>
             <div className={classes.control}>
                 <label htmlFor='title'>Image</label>

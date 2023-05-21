@@ -33,6 +33,11 @@ function RatingItem(props) {
                         </tr>
                         <tr>
                             <td>
+                                <text>{"Rated By: " + props.yourname}</text>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
                                 <text>{"Comments: " + props.comment}</text>
                             </td>
                             <td className={classes.actions}>

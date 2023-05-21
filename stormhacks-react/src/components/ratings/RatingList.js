@@ -9,6 +9,7 @@ function RatingList(props) {
                 id={meetup.id} 
                 rating ={meetup.rating}
                 image={meetup.image} 
+                yourname={meetup.yourname}
                 // username={meetup.username}
                 name={meetup.name}
                 comment={meetup.comment}
