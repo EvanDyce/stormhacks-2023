@@ -65,7 +65,7 @@ function RatingsPage() {
 
     return (
         <section>
-            <h1>Ratings</h1>
+            <h1>People Ratings</h1>
             <RatingList meetups={loadedRatings}/>
         </section>);
 }

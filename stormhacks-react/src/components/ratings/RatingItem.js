@@ -1,5 +1,6 @@
 import Card from '../ui/Card';
 import classes from './RatingItem.module.css';
+import profilepic from './profilepiclogo.png'
 
 function RatingItem(props) {
     function alertFunc() {
@@ -12,9 +13,14 @@ function RatingItem(props) {
                 <header>
                     <table>
                         <tr>
+                            <td rowspan="4">
+                                <img src={props.image} alt={props.title} className={classes.userimage} />
+                            </td>
+                        </tr>
+                        <tr>
                             <td>
+                                <img src={profilepic} alt="Profile Picture Logo" className={classes.profilelogo} />
                                 <text>{"Rating: " + props.rating + "/5"}</text>
-                                {/* <text>test</text> */}
                             </td>
                             <td>
                                 <text>{props.date}</text>

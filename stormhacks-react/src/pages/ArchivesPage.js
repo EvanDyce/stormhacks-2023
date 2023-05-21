@@ -23,7 +23,7 @@ function ArchivesPage() {
 
     return (
         <section>
-            <h1>New Rating</h1>
+            <h1>Rate a Person!</h1>
             {/* <MeetupList meetups={Data}/> */}
             <NewRatingForm onAddRating={addRatingHandler}></NewRatingForm>
         </section>);
