@@ -1,0 +1,73 @@
+.logo {
+  font-size: 2rem;
+  /* color: white; */
+  color: #4785fb;
+  font-weight: bold;
+  margin-bottom: 30px;
+  /* margin-top: 10%; */
+}
+
+.regulartext {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #bac7ec;
+}
+
+.smalltext {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #bac7ec;
+}
+
+
+.linkbutton{
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4785fb;
+}
+
+.linkbutton:hover,
+.linkbutton:active,
+.linkbutton.active {
+  color: #bac7ec;
+}
+
+.actions button {
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #4785fb;
+  background-color: #4785fb;
+  padding: 0.5rem 1.5rem;
+  /* margin-right: 10px; */
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #bac7ec;
+  color: white;
+  border: solid white 1px;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #4785fb;
+  border-radius: 4px;
+}
+
+.datebirthday {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #4785fb;
+  border-radius: 4px;
+}
