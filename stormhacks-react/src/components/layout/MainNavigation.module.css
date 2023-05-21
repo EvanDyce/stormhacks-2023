@@ -48,3 +48,8 @@
     padding: 0 1rem;
     margin-left: 0.5rem;
   }
+
+  .image {
+    height: 5rem;
+    width: 5rem;
+  }

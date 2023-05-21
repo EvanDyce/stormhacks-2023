@@ -1,10 +1,12 @@
 import {Link} from 'react-router-dom'
 
+import logo from './logo.png'
 import classes from './MainNavigation.module.css';
 
 function MainNavigation() {
     return (
         <header className={classes.header}>
+            <img className={classes.image} src={logo}></img>
             <div className={classes.logo}>MateRate</div>
             <nav>
                 <ul>

@@ -32,3 +32,8 @@
   transition: 0.3s;
   opacity: 0.75;
 }
+
+.image {
+  width: 100%;
+  height: 100%;
+}
