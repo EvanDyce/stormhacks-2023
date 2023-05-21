@@ -26,6 +26,9 @@
 
 .actions button:hover,
 .actions button:active {
-  background-color: #c9c9c9;
-  border: 1px solid #c9c9c9;
+  background-color: #4785fb;
+  color: white;
+  border: solid #4785fb 1px;
+  transition: 0.3s;
+  opacity: 0.75;
 }
