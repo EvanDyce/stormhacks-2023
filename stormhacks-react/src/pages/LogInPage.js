@@ -1,19 +1,24 @@
 import {Link} from 'react-router-dom'
+import Card from '../components/signupprompt/Card';
+import classes from './LoginPage.module.css';
 
 function LogInPage() {
     return (
         <body>
-		<h1>Forum Login</h1>
-		
-		<Link to='/signup'>Create an account</Link>
-		<br /><br />
-		<form method='post' action='login.php'>
-			Username<br />
-			<input type='text' name='Username' required=''/><br /><br />
-			Password<br />
-			<input type='password' name='Password' required=''/><br /><br />
-			<input type='submit' value='Log In' />
-		</form>
+        <Card>
+            <header className={classes.logo}>Forum Login</header>
+            <br /><br />
+            <form method='post' action='login.php'>
+                Username<br />
+                <input type='text' name='Username' required=''/><br /><br />
+                Password<br />
+                <input type='password' name='Password' required=''/><br /><br />
+                <input type='submit' value='Log In' />
+            </form>
+        </Card>
+        <Card>
+            <Link className={classes.linkbutton} to='/signup'>Create an account</Link>
+        </Card>
 	</body>
 );
 }
