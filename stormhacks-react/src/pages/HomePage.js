@@ -7,6 +7,9 @@ function HomePage() {
             <div className={classes.actions}>
                 <button>Sign Up / Log In</button>
             </div>
+            <footer>
+                <p>MateRate</p>
+            </footer>
         </section>);
 }
 
