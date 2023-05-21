@@ -46,6 +46,7 @@ table {
 table td:nth-child(2)
 {
   text-align:right;
+  width: 10%;
 }
 
 .content h3 {
