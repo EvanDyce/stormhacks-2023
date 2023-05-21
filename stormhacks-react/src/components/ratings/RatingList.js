@@ -7,8 +7,9 @@ function RatingList(props) {
             <RatingItem 
                 key={meetup.id} 
                 id={meetup.id} 
-                // image={meetup.image} 
-                username={meetup.username}
+                rating ={meetup.rating}
+                image={meetup.image} 
+                // username={meetup.username}
                 name={meetup.name}
                 comment={meetup.comment}
                 date={meetup.date}

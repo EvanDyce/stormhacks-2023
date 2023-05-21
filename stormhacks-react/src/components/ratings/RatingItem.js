@@ -13,7 +13,7 @@ function RatingItem(props) {
                     <table>
                         <tr>
                             <td>
-                                <text>{"Username: " + props.username}</text>
+                                <text>{"Rating: " + props.rating + "/5"}</text>
                                 {/* <text>test</text> */}
                             </td>
                             <td>
@@ -27,7 +27,7 @@ function RatingItem(props) {
                         </tr>
                         <tr>
                             <td>
-                                <text>{"Comment: " + props.comment}</text>
+                                <text>{"Comments: " + props.comment}</text>
                             </td>
                             <td className={classes.actions}>
                                 <button onClick={alertFunc}>

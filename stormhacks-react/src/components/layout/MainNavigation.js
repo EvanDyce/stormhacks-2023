@@ -18,7 +18,7 @@ function MainNavigation() {
                         <Link to='/ratings'>Ratings</Link>
                     </li>
                     <li>
-                        <Link to='/archive'>Archive</Link>
+                        <Link to='/archive'>New Rating</Link>
                     </li>
                     <li>
                         <Link to='/profile'>Profile</Link>

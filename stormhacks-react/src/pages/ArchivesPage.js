@@ -1,40 +1,31 @@
 import MeetupList from "../components/meetups/MeetupList";
-
-const Data = [
-    {
-      id: 'm1',
-      title: 'Project 1',
-      image:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg',
-      address: 'Meetupstreet 5, 12345 Meetup City',
-      description:
-        'This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!',
-    },
-    {
-      id: 'm2',
-      title: 'Project 2',
-      image:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg',
-      address: 'Meetupstreet 5, 12345 Meetup City',
-      description:
-        'This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!',
-    },
-    {
-        id: 'm2',
-        title: 'Project 3',
-        image:
-          'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg',
-        address: 'Meetupstreet 5, 12345 Meetup City',
-        description:
-          'This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!',
-      },
-];
+import NewRatingForm from "../components/ratings/NewRatingForm";
+import { useNavigate } from 'react-router-dom';
 
 function ArchivesPage() {
+  const navigate = useNavigate();
+
+  function addRatingHandler(ratingData) {
+    fetch(
+      'https://materate-a3b56-default-rtdb.firebaseio.com/ratings.json',
+      {
+        method: 'POST',
+        body: JSON.stringify(ratingData),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      }
+    ).then(() => {
+      navigate('/ratings')
+    }
+    );
+  }
+
     return (
         <section>
-            <h1>Projects</h1>
-            <MeetupList meetups={Data}/>
+            <h1>New Rating</h1>
+            {/* <MeetupList meetups={Data}/> */}
+            <NewRatingForm onAddRating={addRatingHandler}></NewRatingForm>
         </section>);
 }
 
