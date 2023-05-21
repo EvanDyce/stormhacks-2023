@@ -6,6 +6,13 @@
   margin-top: 10%;
 }
 
+.logo2 {
+  font-size: 2rem;
+  /* color: white; */
+  color: white;
+  font-weight: bold;
+}
+
 .actions {
   /* padding: 1.5rem; */
   margin-top: 10px;

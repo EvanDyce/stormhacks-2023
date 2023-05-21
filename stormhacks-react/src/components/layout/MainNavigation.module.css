@@ -6,13 +6,20 @@
     justify-content: space-between;
     /* background-color: #4890a7; */
     background-color: '#00000000';
-    padding: 0 10%;
+    padding: 0 5%;
   }
   
   .logo {
     font-size: 2rem;
     /* color: white; */
     color: #4785fb;
+    font-weight: bold;
+  }
+
+  .logoinvis {
+    font-size: 2rem;
+    /* color: white; */
+    color: transparent;
     font-weight: bold;
   }
   

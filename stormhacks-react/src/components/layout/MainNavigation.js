@@ -8,6 +8,7 @@ function MainNavigation() {
         <header className={classes.header}>
             <img className={classes.image} src={logo}></img>
             <div className={classes.logo}>MateRate</div>
+            <div className={classes.logoinvis}>hello secret muaha</div>
             <nav>
                 <ul>
                     <li>
