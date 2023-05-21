@@ -22,12 +22,16 @@ h2 {
 }
 
 footer {
+  vertical-align: middle;
+  font-weight: bold;
   position: fixed;
-  padding: 0px 10px 0px 10px;
+  padding: 1% 0px 2% 0px;
   bottom: 0;
   width: 100%;
+  text-align: center;
   /* Height of the footer*/
-  height: 40px;
+  height: 5%;
   background: #4785fb;
   border: none;
+  color: white;
 }

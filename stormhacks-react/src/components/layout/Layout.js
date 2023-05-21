@@ -8,7 +8,7 @@ function Layout(props) {
             {props.children}
         </main>
         <footer>
-            <p>MateRate</p>
+            MateRate&copy;
         </footer>
     </div>
 }
