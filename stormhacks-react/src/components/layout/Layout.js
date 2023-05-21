@@ -7,6 +7,9 @@ function Layout(props) {
         <main className={classes.main}>
             {props.children}
         </main>
+        <footer>
+            <p>MateRate</p>
+        </footer>
     </div>
 }
 
