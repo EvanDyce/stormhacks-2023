@@ -1,6 +1,6 @@
 function ProfilePage() {
     return (
-        <div>hello</div>);
+        <div>profile page</div>);
 }
 
 export default ProfilePage;
